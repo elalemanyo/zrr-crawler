@@ -15,7 +15,7 @@ jobs:
         with:
           bundler-cache: true
 
-      - run: ruby makroscope.rb
+      - run: bundle exec ruby makroscope.rb
 
       - name: commit files
         run: |
