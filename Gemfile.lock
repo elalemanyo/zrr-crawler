@@ -1,0 +1,70 @@
+GIT
+  remote: https://github.com/rubycdp/vessel.git
+  revision: 2399abee88eeae99be5a9c8c3274601b78a29999
+  branch: main
+  specs:
+    vessel (0.2.0)
+      ferrum (~> 0.12)
+      mechanize (>= 2.8.5)
+      nokogiri (~> 1.13)
+      thor (~> 1.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.4)
+      public_suffix (>= 2.0.2, < 6.0)
+    concurrent-ruby (1.2.2)
+    connection_pool (2.4.1)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
+    ferrum (0.13)
+      addressable (~> 2.5)
+      concurrent-ruby (~> 1.1)
+      webrick (~> 1.7)
+      websocket-driver (>= 0.6, < 0.8)
+    http-cookie (1.0.5)
+      domain_name (~> 0.5)
+    mechanize (2.9.1)
+      addressable (~> 2.8)
+      domain_name (~> 0.5, >= 0.5.20190701)
+      http-cookie (~> 1.0, >= 1.0.3)
+      mime-types (~> 3.0)
+      net-http-digest_auth (~> 1.4, >= 1.4.1)
+      net-http-persistent (>= 2.5.2, < 5.0.dev)
+      nokogiri (~> 1.11, >= 1.11.2)
+      rubyntlm (~> 0.6, >= 0.6.3)
+      webrick (~> 1.7)
+      webrobots (~> 0.1.2)
+    mime-types (3.4.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2023.0218.1)
+    net-http-digest_auth (1.4.1)
+    net-http-persistent (4.0.2)
+      connection_pool (~> 2.2)
+    nokogiri (1.15.2-arm64-darwin)
+      racc (~> 1.4)
+    public_suffix (5.0.1)
+    racc (1.7.0)
+    rubyntlm (0.6.3)
+    thor (1.2.2)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.8.2)
+    webrick (1.8.1)
+    webrobots (0.1.2)
+    websocket-driver (0.7.5)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  vessel!
+
+RUBY VERSION
+   ruby 3.2.2p53
+
+BUNDLED WITH
+   2.4.10
