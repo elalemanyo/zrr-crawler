@@ -1,4 +1,4 @@
-name: run  makroscope.rb
+name: run makroscope.rb
 
 on:
   push:
