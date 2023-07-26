@@ -2,6 +2,8 @@ name: run makroscope.rb
 
 on:
   push:
+    paths:
+      - 'makroscope.rb'
   schedule:
     - cron: '0 0 * * 1' # At 00:00 on Monday
 
