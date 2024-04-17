@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'makroscope.rb'
+      - '.github/workflows/makroscope.yml'
   schedule:
     - cron: '0 0 * * 1' # At 00:00 on Monday
 
