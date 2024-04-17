@@ -23,14 +23,14 @@ jobs:
 
       - run: bundle exec ruby makroscope.rb
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update makroscope.rb
-    
+
           file_pattern: 'makroscope.json'
-        
+
           commit_user_name: GitHub Actions Bot # defaults to "github-actions[bot]"
           commit_user_email: my-github-actions-bot@example.org # defaults to "41898282+github-actions[bot]@users.noreply.github.com"
           commit_author: Author <actions@github.com> # defaults to author of the commit that triggered the run
-    
+
           create_branch: false
